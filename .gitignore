@@ -1,0 +1,23 @@
+.vs
+AAS.sln
+
+Application/bin/
+Application/obj/
+
+Domain/bin/
+Domain/obj/
+
+Infrastructure/bin/
+Infrastructure/obj/
+
+WebApi/bin/
+WebApi/obj/
+
+# dependencies
+client/node_modules
+
+# testing
+client/coverage
+
+# production
+client/build
