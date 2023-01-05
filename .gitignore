@@ -9,15 +9,9 @@ Domain/obj/
 
 Infrastructure/bin/
 Infrastructure/obj/
+Infrastructure/Migrations/
 
 WebApi/bin/
 WebApi/obj/
 
-# dependencies
 client/node_modules
-
-# testing
-client/coverage
-
-# production
-client/build

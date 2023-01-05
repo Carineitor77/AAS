@@ -10,9 +10,6 @@ namespace Domain
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
 
-        public long UserId { get; set; }
-        public User? User { get; set; }
-
-        public ICollection<Visiting>? Visitings { get; set; }
+        public ICollection<User>? Users { get; set; }
     }
 }
