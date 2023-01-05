@@ -12,7 +12,8 @@ namespace Domain
         public long RoleId { get; set; }
         public Role? Role { get; set; }
 
-        public ICollection<Lesson>? Lessons { get; set; }
+        public long LessonId { get; set; }
+        public Lesson? Lesson { get; set; }
 
         public ICollection<Visiting>? Visitings { get; set; }
     }
