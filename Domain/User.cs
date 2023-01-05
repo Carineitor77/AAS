@@ -12,7 +12,7 @@ namespace Domain
         public long RoleId { get; set; }
         public Role? Role { get; set; }
 
-        public long LessonId { get; set; }
+        public long? LessonId { get; set; } = null;
         public Lesson? Lesson { get; set; }
 
         public ICollection<Visiting>? Visitings { get; set; }
